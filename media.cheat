@@ -1,0 +1,17 @@
+% image magick
+
+# turn alpha off
+convert <input> -alpha off <output>
+
+# convert to grayscale
+convert -colorspace GRAY <input.pdf> <output.pdf> 
+
+# convert images
+mogrify -format <dest format> <input>
+
+# scale image smaller
+mogrify -scale <amount in pct>% <input>
+
+# blur an image
+$ amount: echo '0x2 0x4 0x8 0x16' | tr ' ' '\n'
+magick <input> -blur <amount> <output>
