@@ -1,7 +1,7 @@
 # Cheats
 
 My personal cheat sheets for [navi](https://github.com/denisidoro/navi), the
-CLI interactive cheat sheet utility.
+interactive CLI cheat sheet utility.
 
 You *can* clone my / other people's cheat sheets very easily. But I *highly*
 recommend just building your own. 
